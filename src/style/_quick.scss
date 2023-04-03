@@ -1,0 +1,342 @@
+/* 浮动 */
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+/* flex */
+.f1 {
+  flex: 1;
+}
+
+.fw {
+  flex-wrap: wrap;
+}
+
+.fwnw {
+  flex-wrap: nowrap;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.fdcr {
+  flex-direction: column-reverse;
+}
+
+.fdrr {
+  flex-direction: row-reverse;
+}
+
+/* flex布局 */
+.fcc {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.fcc-c {
+  @extend .fcc;
+
+  flex-direction: column;
+}
+
+.fsc {
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.fsc-c {
+  @extend .fsc;
+
+  flex-direction: column;
+}
+
+.fsac {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fsac-c {
+  @extend .fsac;
+
+  flex-direction: column;
+}
+
+.fsbs {
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.fsbs-c {
+  @extend .fsbs;
+
+  flex-direction: column;
+}
+
+.fsas {
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.fsas-c {
+  @extend .fsas;
+
+  flex-direction: column;
+}
+
+.fses {
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.fses-c {
+  @extend .fses;
+
+  flex-direction: column;
+}
+
+.fsec {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fsec-c {
+  @extend .fsec;
+
+  flex-direction: column;
+}
+
+.fsee {
+  display: flex !important;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.fsee-c {
+  @extend .fsee;
+
+  flex-direction: column;
+}
+
+.fcs {
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.fcs-c {
+  @extend .fcs;
+
+  flex-direction: column;
+}
+
+.fcsb {
+  display: flex !important;
+  align-items: space-between;
+  justify-content: center;
+}
+
+.fcsb-c {
+  @extend .fcsb;
+
+  flex-direction: column;
+}
+
+.fssb {
+  display: flex !important;
+  align-items: space-between;
+  justify-content: flex-start;
+}
+
+.fssb-c {
+  @extend .fssb;
+
+  flex-direction: column;
+}
+
+.fss {
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.fss-c {
+  @extend .fss;
+
+  flex-direction: column;
+}
+
+.fsbc {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fsbc-c {
+  @extend .fsbc;
+
+  flex-direction: column;
+}
+
+.fsbe {
+  display: flex !important;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.fsbe-c {
+  @extend .fsbe;
+
+  flex-direction: column;
+}
+
+.fec {
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.fec-c {
+  @extend .fec;
+
+  flex-direction: column;
+}
+
+.fce {
+  display: flex !important;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.fce-c {
+  @extend .fce;
+
+  flex-direction: column;
+}
+
+.fse {
+  display: flex !important;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.fse-c {
+  @extend .fse;
+
+  flex-direction: column;
+}
+
+.fes {
+  display: flex !important;
+  align-items: start;
+  justify-content: flex-end;
+}
+
+.fes-c {
+  @extend .fes;
+
+  flex-direction: column;
+}
+
+.fee {
+  display: flex !important;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.fee-c {
+  @extend .fee;
+
+  flex-direction: column;
+}
+
+/* other */
+.w100 {
+  width: 100%;
+}
+
+.h100 {
+  height: 100vh;
+}
+
+.te1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  white-space: nowrap;
+}
+
+.te2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.te3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ws {
+  white-space: normal;
+}
+
+.wsnw {
+  white-space: nowrap;
+}
+
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
+.ofh {
+  overflow: hidden;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.center_x {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.center_y {
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+/* 清除浮动类 */
+.clearfix::after {
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  content: '.';
+}
+
+.clearfix {
+  // *zoom: 1;
+  zoom: 1;
+}

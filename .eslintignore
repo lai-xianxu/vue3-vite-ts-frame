@@ -1,0 +1,5 @@
+dist
+node_modules
+!.prettierrc.cjs
+components.d.ts
+auto-imports.d.ts
